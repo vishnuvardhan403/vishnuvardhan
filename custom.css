@@ -1,0 +1,89 @@
+ /* General Styles */
+        body {
+            font-family: "Arial", serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Light background color */
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: serif;
+            letter-spacing: 2px;
+        }
+
+        /* Social Icons Styles */
+        .social-icons {
+            display: flex;
+            justify-content: center; /* Center social icons */
+            padding: 16px 0; /* Add padding for social icons */
+        }
+
+        .social-icons a {
+            margin: 0 10px; /* Reduce spacing between icons */
+            font-size: 24px; /* Increase icon size */
+            transition: opacity 0.3s; /* Smooth transition for hover effect */
+        }
+
+        /* Individual Icon Colors */
+        .social-icon-i {
+            color: red; /* Color for Instagram icon */
+        }
+
+        .social-icon-z {
+            color: rgb(55, 148, 173); /* Color for Twitter icon */
+        }
+
+        .social-icon-t {
+            color: rgb(241, 178, 30); /* Color for Google icon */
+        }
+
+        .social-icon-y {
+            color: rgb(45, 33, 208); /* Color for LinkedIn icon */
+        }
+
+        /* Hover Effect for Social Icons */
+        .social-icons a:hover {
+            opacity: 0.8; /* Change opacity on hover */
+        }
+
+        /* Mobile Styles */
+        @media (max-width: 725px) {
+            .w3-bar {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .w3-bar-item {
+                width: 100%; /* Full width for mobile navigation */
+                text-align: center; /* Center align text */
+                padding: 16px; /* Padding for touch targets */
+            }
+
+            .w3-content {
+                padding: 16px; /* Padding for content */
+            }
+
+            .w3-row {
+                display: flex;
+                flex-direction: column; /* Stack columns vertically */
+                align-items: center; /* Center align columns */
+            }
+
+            .w3-half {
+                width: 100%; /* Full width for images and text */
+                padding: 0; /* Remove padding */
+            }
+
+            footer {
+                text-align: center; /* Center footer text */
+                padding: 16px; /* Padding for footer */
+            }
+
+            /* Centering Email Address */
+            .contact-email {
+                text-align: center; /* Center align email */
+                font-size: 18px; /* Adjust font size */
+                padding: 10px; /* Add padding */
+            }
+        }
